@@ -1,0 +1,81 @@
+    .signuperror {
+        display: flex;
+        justify-content: center;
+        color: red;
+        height: 5vh;
+        background-color: aqua;
+        font-size: 2em;
+    }
+    
+    .signupsuccess {
+        display: flex;
+        /*-----------------*/
+        justify-content: center;
+        color: red;
+        height: 5vh;
+        color: lime;
+        background-color: #f5f5f5;
+        font-size: 2em;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: #eee;
+        flex-wrap: wrap;
+    }
+    
+    body {
+        background-image: url(back1.jpg);
+        font-family: Arial, verdana, "sans-serif";
+    }
+    
+    .form1 {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    
+    .logout {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2.5em;
+    }
+    
+    #container {
+        box-shadow: 0 0 0 2px hsl(10, 10%, 40%);
+        margin: 0px auto;
+        width: 66vw;
+        background-color: #fffaf0;
+        padding: 3px;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 65vw;
+        text-align: center;
+    }
+    
+    th,
+    td {
+        padding: 1vmax;
+    }
+    
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    th {
+        background-color: aquamarine;
+    }
